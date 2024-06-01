@@ -4,3 +4,8 @@
   <span class="subtitle">Developer</span>
   <span class="description">Learning Flutter</span>
 </div>
+<style>
+  .card {
+    background-color: black;
+  }
+</style>
