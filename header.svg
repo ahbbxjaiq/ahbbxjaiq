@@ -4,6 +4,7 @@
 			<style>
         .card {
           background-color: black;
+		color: white;
         }
 			</style>
 			<div class="card">
