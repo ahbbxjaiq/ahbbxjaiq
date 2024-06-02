@@ -1,17 +1,32 @@
-<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-	<foreignObject width="100%" height="100%">
+<svg fill="none" viewBox="0 0 500 250" width="500" height="250" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%" margin="0px">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
         .card {
           background-color: black;
-		color: white;
+      color: white;
+          height: 210px;
+          width: 460px;
+          border-radius: 2em;
+          padding: 20px;
+          box-shadow: 5px 5px 0px black;
+        }
+        .title {
+                font-family: "Helvetica Neue";
+          margin: 10px 0 0 10px;
+          text-shadow: 1.5px 1.5px 1.5px grey;
+        }
+        .subtitle {
+          margin: 5px 0 0 10px;
+          font-family: sans-serif;
+          font-size: 0.9en;
+          text-shadow: 1px 1px 1px grey;
         }
 			</style>
 			<div class="card">
-				<h1>
-          Ahbbxjaiq
-          <span class="subtitle">Developer</span>
-        </h1>
+				<h1 class="title">
+          Ahbbxjaiq</h1>
+        <h3 class="subtitle">Full Stack Developer</h3>
 				<p>Learning Flutter</p>
 			</div>
 		</div>
