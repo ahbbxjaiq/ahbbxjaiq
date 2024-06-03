@@ -5,8 +5,8 @@
         .card {
           background-color: black;
       color: white;
-          height: 210px;
-          width: 460px;
+          height: 205px;
+          width: 455px;
           border-radius: 2em;
           padding: 20px;
           box-shadow: 5px 5px 0px black;
@@ -22,12 +22,18 @@
           font-size: 0.9en;
           text-shadow: 1px 1px 1px grey;
         }
+        .status {
+          margin: 0 0 0 10px;
+          font-family: sans-serif;
+          font-size: 0.8en;
+          text-shadow: 1px 1px 1px grey;
+        }
 			</style>
 			<div class="card">
 				<h1 class="title">
           Ahbbxjaiq</h1>
         <h3 class="subtitle">Full Stack Developer</h3>
-				<p>Learning Flutter</p>
+				<h4 class="status">Learning Flutter</h4>
 			</div>
 		</div>
 	</foreignObject>
